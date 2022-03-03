@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Сотрудники</title>
+    </head>
+    <body>
+    <h2>Наши сотрудники</h2>
+    {% for name in names %}
+            <p>Это {{ name }} и его контакт для связи: {{ name.contact_phone }}. Должность - {{ name.position }}</p>
+        li
+    {% endfor %}
+
+    </body>
+</html>
